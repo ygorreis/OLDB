@@ -3,7 +3,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Plataforma para aprendizagem interativa de Banco de Dados">
-        <meta name="author" content="Ygor Reis | Jonas Souza">
+        <meta name="author" content="Ygor Reis | Jonas Sousa">
 
         <title>OLDB | Open Learning DataBase</title>
 
@@ -47,7 +47,7 @@
             <!-- Jumbotron -->
             <div class="jumbotron">
 
-                <h1>Jonilson Viado</h1>
+                <h1>NOTAÇÕES ENTIDADE RELACIONAMENTO</h1>
                 <p class="lead">Uma abordagem interativa para ensinar banco de dados</p>
                 <p><a class="btn btn-lg btn-success" href="#" role="button">Comece agora!</a></p>
             </div>
