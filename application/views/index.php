@@ -9,9 +9,9 @@
 
         
         
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-        <link href="css/justified-nav.css" rel="stylesheet">
+        <link href="../css/justified-nav.css" rel="stylesheet">
 
 
 
@@ -61,8 +61,8 @@
         <!-- /container -->
 
 
-        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->

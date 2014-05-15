@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class Oldb extends CI_Controller {
+class OlDB extends CI_Controller {
 
     public function index() {
         $this->load->view('index');
@@ -12,5 +12,4 @@ class Oldb extends CI_Controller {
     public function notacoes_er(){
         $this->load->view('notacoes_er');
     }
-
 }

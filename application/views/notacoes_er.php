@@ -9,9 +9,9 @@
 
         
         
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-        <link href="css/justified-nav.css" rel="stylesheet">
+        <link href="../css/justified-nav.css" rel="stylesheet">
 
 
 
@@ -27,7 +27,7 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
-                                <li role="presentation"><a href="#">Notações Entidade Relacionamento</a></li>
+                                <li role="presentation"><a href="oldb/notacoes_er">Notações Entidade Relacionamento</a></li>
                                 <li class="divider"></li>
                                 <li role="presentation"><a href="#">Cenário para Entidade Relacionamento</a></li>
                                 <li class="divider"></li>
@@ -44,14 +44,215 @@
             </div>
 
 
-            <!-- Jumbotron -->
-            <div class="jumbotron">
-
-                <h1>NOTAÇÕES ENTIDADE RELACIONAMENTO</h1>
-                <p class="lead">Uma abordagem interativa para ensinar banco de dados</p>
-                <p><a class="btn btn-lg btn-success" href="#" role="button">Comece agora!</a></p>
+    <div class="row">
+        <div class="col-sm-3 col-md-3">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-circle-arrow-right">
+                            </span>  Máximo</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <a href="#">Binário Não-Identificado 1-N</a>
+                                    </td>
+                                </tr>
+                               <tr>
+                                    <td>
+                                        <a href="#">Binário Identificado 1-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Binário N-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Binário 1-1</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Unário 1-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Incompleto, Sobreposto</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Completo, Disjunto</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-circle-arrow-right">
+                            </span>Minímo</a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <a href="#">Binário Não-Identificado 1-N</a>
+                                    </td>
+                                </tr>
+                               <tr>
+                                    <td>
+                                        <a href="#">Binário Identificado 1-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Binário N-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Binário 1-1</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Unário 1-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Incompleto, Sobreposto</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Completo, Disjunto</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-circle-arrow-right">
+                            </span>Pé de Galinha</a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                               <tr>
+                                    <td>
+                                        <a href="#">Binário Não-Identificado 1-N</a>
+                                    </td>
+                                </tr>
+                               <tr>
+                                    <td>
+                                        <a href="#">Binário Identificado 1-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Binário N-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Binário 1-1</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Unário 1-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Incompleto, Sobreposto</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Completo, Disjunto</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-circle-arrow-right">
+                            </span>Classe UML</a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <a href="#">Binário Não-Identificado 1-N</a>
+                                    </td>
+                                </tr>
+                               <tr>
+                                    <td>
+                                        <a href="#">Binário Identificado 1-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Binário N-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Binário 1-1</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Unário 1-N</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Incompleto, Sobreposto</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Completo, Disjunto</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
-
+        </div>
+        <div class="col-sm-9 col-md-9">
+            <div class="well" id="apresentacao">
+                <h1>Notações Entidade Relacionamento</h1>
+                Explore os varios conjuntos de notações para diagrama de entidades e relacionamentos
+            </div>
+        </div>
+    </div>
+            
             <!-- Site footer -->
             <div class="footer">
                 <h4>Desenvolvido por <a href="https://www.facebook.com/ygor.reis">Ygor Reis</a> e <a href="https://www.facebook.com/jonas.sousa.58">Jonas Sousa</a>.</h4>
@@ -61,8 +262,8 @@
         <!-- /container -->
 
 
-        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
