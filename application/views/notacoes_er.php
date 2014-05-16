@@ -1,3 +1,4 @@
+<?php $this->load->helper('url'); ?>
 <html lang="en"><head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +28,7 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
-                                <li role="presentation"><a href="oldb/notacoes_er">Notações Entidade Relacionamento</a></li>
+                                <li role="presentation"><a href="<?= site_url('oldb/notacoes_er')?>">Notações Entidade Relacionamento</a></li>
                                 <li class="divider"></li>
                                 <li role="presentation"><a href="#">Cenário para Entidade Relacionamento</a></li>
                                 <li class="divider"></li>
@@ -100,7 +101,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-circle-arrow-right">
-                            </span>Minímo</a>
+                            </span>  Minímo</a>
                         </h4>
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse">
@@ -149,7 +150,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-circle-arrow-right">
-                            </span>Pé de Galinha</a>
+                            </span>  Pé de Galinha</a>
                         </h4>
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse">
@@ -198,7 +199,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-circle-arrow-right">
-                            </span>Classe UML</a>
+                            </span>  Classe UML</a>
                         </h4>
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse">
@@ -252,6 +253,10 @@
             </div>
         </div>
     </div>
+            
+            <div id="imagem">
+                
+            </div>
             
             <!-- Site footer -->
             <div class="footer">

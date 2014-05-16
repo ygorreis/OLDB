@@ -1,3 +1,4 @@
+<?php $this->load->helper('url'); ?>
 <html lang="en"><head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +28,7 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
-                                <li role="presentation"><a href="oldb/notacoes_er">Notações Entidade Relacionamento</a></li>
+                                <li role="presentation"><a href="<?= site_url('oldb/notacoes_er')?>">Notações Entidade Relacionamento</a></li>
                                 <li class="divider"></li>
                                 <li role="presentation"><a href="#">Cenário para Entidade Relacionamento</a></li>
                                 <li class="divider"></li>
