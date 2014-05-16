@@ -50,7 +50,7 @@
 
                 <h1>Open Learning DataBase</h1>
                 <p class="lead">Uma abordagem interativa para ensinar banco de dados</p>
-                <p><a class="btn btn-lg btn-success" href="#" role="button">Comece agora!</a></p>
+                <p><a class="btn btn-lg btn-success" href="<?= site_url('oldb/notacoes_er')?>" role="button">Comece agora!</a></p>
             </div>
 
             <!-- Site footer -->
