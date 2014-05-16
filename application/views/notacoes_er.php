@@ -21,6 +21,7 @@
             <div class="masthead">
                 <div class="navbar-collapse collapse">
                     <ul class="nav nav-justified">
+                        <li role="presentation"><a href="<?= site_url('oldb')?>">HOME</a></li>
                         <li>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projetando Banco de Dados
                                 <b class="caret"></b>
