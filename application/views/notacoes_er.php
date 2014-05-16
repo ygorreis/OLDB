@@ -5,21 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Plataforma para aprendizagem interativa de Banco de Dados">
         <meta name="author" content="Ygor Reis | Jonas Sousa">
-
+ 
         <title>OLDB | Open Learning DataBase</title>
-
-        
-        
+ 
+       
+       
         <link href="../css/bootstrap.min.css" rel="stylesheet">
-
+ 
         <link href="../css/justified-nav.css" rel="stylesheet">
-
-
-
+ 
     </head>
     <body>
         <div class="container">
-
+ 
             <div class="masthead">
                 <div class="navbar-collapse collapse">
                     <ul class="nav nav-justified">
@@ -41,10 +39,10 @@
                         <li role="presentation"><a href="#">INFO</a></li>
                     </ul>
                 </div>
-
+ 
             </div>
-
-
+ 
+ 
     <div class="row">
         <div class="col-sm-3 col-md-3">
             <div class="panel-group" id="accordion">
@@ -60,37 +58,37 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="#">Binário Não-Identificado 1-N</a>
+                                        <a href="" class="max_1">Binário Não-Identificado 1-N</a>
                                     </td>
                                 </tr>
                                <tr>
                                     <td>
-                                        <a href="#">Binário Identificado 1-N</a>
+                                        <a href="" class="max_2">Binário Identificado 1-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Binário N-N</a>
+                                         <a href="" class="max_3">Binário N-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Binário 1-1</a>
+                                         <a href="" class="max_4">Binário 1-1</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Unário 1-N</a>
+                                         <a href="" class="max_5">Unário 1-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Incompleto, Sobreposto</a>
+                                         <a href="" class="max_6">Incompleto, Sobreposto</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Completo, Disjunto</a>
+                                         <a href="" class="max_7">Completo, Disjunto</a>
                                     </td>
                                 </tr>
                             </table>
@@ -109,37 +107,37 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="#">Binário Não-Identificado 1-N</a>
+                                        <a href="" class="min_1">Binário Não-Identificado 1-N</a>
                                     </td>
                                 </tr>
                                <tr>
                                     <td>
-                                        <a href="#">Binário Identificado 1-N</a>
+                                       <a href="" class="min_2">Binário Identificado 1-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Binário N-N</a>
+                                        <a href="" class="min_3">Binário N-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Binário 1-1</a>
+                                        <a href="" class="min_4">Binário 1-1</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Unário 1-N</a>
+                                        <a href="" class="min_5">Unário 1-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Incompleto, Sobreposto</a>
+                                        <a href="" class="min_6">Incompleto, Sobreposto</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Completo, Disjunto</a>
+                                        <a href="" class="min_7">Completo, Disjunto</a>
                                     </td>
                                 </tr>
                             </table>
@@ -158,37 +156,37 @@
                             <table class="table">
                                <tr>
                                     <td>
-                                        <a href="#">Binário Não-Identificado 1-N</a>
+                                        <a href="" class="pga_1">Binário Não-Identificado 1-N</a>
                                     </td>
                                 </tr>
                                <tr>
                                     <td>
-                                        <a href="#">Binário Identificado 1-N</a>
+                                       <a href="" class="pga_2">Binário Identificado 1-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Binário N-N</a>
+                                        <a href="" class="pga_3">Binário N-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Binário 1-1</a>
+                                        <a href="" class="pga_4">Binário 1-1</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Unário 1-N</a>
+                                        <a href="" class="pga_5">Unário 1-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Incompleto, Sobreposto</a>
+                                        <a href="" class="pga_6">Incompleto, Sobreposto</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Completo, Disjunto</a>
+                                        <a href="" class="pga_7">Completo, Disjunto</a>
                                     </td>
                                 </tr>
                             </table>
@@ -207,37 +205,37 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="#">Binário Não-Identificado 1-N</a>
+                                        <a href="" class="uml_1">Binário Não-Identificado 1-N</a>
                                     </td>
                                 </tr>
                                <tr>
                                     <td>
-                                        <a href="#">Binário Identificado 1-N</a>
+                                       <a href="" class="uml_2">Binário Identificado 1-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Binário N-N</a>
+                                        <a href="" class="uml_3">Binário N-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Binário 1-1</a>
+                                        <a href="" class="uml_4">Binário 1-1</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Unário 1-N</a>
+                                        <a href="" class="uml_5">Unário 1-N</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Incompleto, Sobreposto</a>
+                                        <a href="" class="uml_6">Incompleto, Sobreposto</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Completo, Disjunto</a>
+                                        <a href="" class="uml_7">Completo, Disjunto</a>
                                     </td>
                                 </tr>
                             </table>
@@ -248,31 +246,85 @@
         </div>
         <div class="col-sm-9 col-md-9">
             <div class="well" id="apresentacao">
-                <h1>Notações Entidade Relacionamento</h1>
-                Explore os varios conjuntos de notações para diagrama de entidades e relacionamentos
+                <span id="texto"><h1>Notações Entidade Relacionamento</h1>
+                Explore os varios conjuntos de notações para diagrama de entidades e relacionamentos</span>
+                <img id="imagem" src="">
             </div>
         </div>
     </div>
-            
-            <div id="imagem">
-                
-            </div>
-            
+           
             <!-- Site footer -->
             <div class="footer">
                 <h4>Desenvolvido por <a href="https://www.facebook.com/ygor.reis">Ygor Reis</a> e <a href="https://www.facebook.com/jonas.sousa.58">Jonas Sousa</a>.</h4>
             </div>
-
-        </div> 
+ 
+        </div>
         <!-- /container -->
-
-
+ 
+ 
         <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+           $(function() {
+              $('.max_1').click(function(){
+              $("#texto").hide();
+              $("#imagem").attr('src',"<?php echo base_url().'../img/max_1.jpg' ?>");
+              return false;
+            });
+           });
+           
+           $(function() {
+              $('.max_2').click(function(){
+              $("#texto").hide();
+              $("#imagem").attr('src',"<?php echo base_url().'../img/max_2.jpg' ?>");
+              return false;
+            });
+           });
+           
+           $(function() {
+              $('.max_3').click(function(){
+              $("#texto").hide();
+              $("#imagem").attr('src',"<?php echo base_url().'../img/max_3.jpg' ?>");
+              return false;
+            });
+           });
+           
+           $(function() {
+              $('.max_4').click(function(){
+              $("#texto").hide();
+              $("#imagem").attr('src',"<?php echo base_url().'../img/max_4.jpg' ?>");
+              return false;
+            });
+           });
+           
+           $(function() {
+              $('.max_5').click(function(){
+              $("#texto").hide();
+              $("#imagem").attr('src',"<?php echo base_url().'../img/max_5.jpg' ?>");
+              return false;
+            });
+           });
+           
+           $(function() {
+              $('.max_6').click(function(){
+              $("#texto").hide();
+              $("#imagem").attr('src',"<?php echo base_url().'../img/max_6.jpg' ?>");
+              return false;
+            });
+           });
+           
+           $(function() {
+              $('.max_7').click(function(){
+              $("#texto").hide();
+              $("#imagem").attr('src',"<?php echo base_url().'../img/max_7.jpg' ?>");
+              return false;
+            });
+           });
+        </script>
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-
-
+ 
+ 
     </body>
 </html>
