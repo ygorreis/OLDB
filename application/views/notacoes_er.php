@@ -100,7 +100,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-circle-arrow-right">
-                            </span>  Minímo</a>
+                            </span>  Minímo, Máximo</a>
                         </h4>
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse">
