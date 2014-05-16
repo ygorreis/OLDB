@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "oldb";
+$route['default_controller'] = 'oldb';
 $route['404_override'] = '';
 
 
