@@ -248,7 +248,16 @@
         <div class="col-sm-9 col-md-9">
             <div class="well" id="apresentacao">
                 <div id="texto"><h1>Notações Entidade Relacionamento</h1>
-                Explore os varios conjuntos de notações para diagrama de entidades e relacionamentos</div>
+                    ALGUMAS INFORMAÇÕES IMPORTANTES:<br><br>
+                    <ul>
+                        <li>TODO DIAGRAMA DE ENTIDADE RELACIONAMENTO CONSISTE EM VÁRIOS COMPONENTES: ENTIDADES, ATRIBUTOS, IDENTIFICADORES E RELAÇÕES.</li>
+                        <li>É POSSÍVEL QUE ESSES COMPONENTES USEM UM DE MUITOS MÉTODOS DO DIAGRAMA DE ENTIDADE RELACIONAMENTO.</li>
+                        <li>EMBORA NÃO HAJA UM MÉTODO DE DIAGRAMAÇÃO DE ER ACEITÁVEL, MUITOS DOS SÍMBOLOS PERMANECEM CONSISTENTES.</li>
+                        <li>O PRIMEIRO DE TODOS, AS CLASSES SÃO DENOTADAS POR RETÂNGULOS.</li>
+                        <li>LINHAS SÃO TRAÇOS ENTRE AS CLASSES PARA LIGAR DUAS OU MAIS CLASSES. FREQUENTEMENTE UM TRIÂNGULO PODERÁ SER DESENHADO PARA INFORMAR COMO AS CLASSES SE RELACIONAM.</li>
+                        <li>FINALIZANDO,  DIAGRAMAS DE ENTIDADE RELACIONAMENTO USAM OUTROS SÍMBOLOS PARA MOSTRAR A CARDINALIDADE. ESTES SÍMBOLOS DIFICILMENTE SÃO CONSISTENTES, ENTRETANTO, ELES PODEM SER NÚMEROS, LETRAS OU, MAIS COMUMENTE, PÉS DE GALINHA.</li>
+                    </ul>
+                </div>
                 <img id="imagem" src="">
             </div>
         </div>
