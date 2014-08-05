@@ -31,7 +31,7 @@
                             <ul class="dropdown-menu">
                                 <li role="presentation"><a href="<?= site_url('oldb/notacoes_er')?>">Notações Entidade Relacionamento</a></li>
                                 <li class="divider"></li>
-                                <li role="presentation"><a href="#">Cenário para Entidade Relacionamento</a></li>
+                                <li role="presentation"><a href="<?= site_url('oldb/cenarios_er')?>">Cenário para Entidade Relacionamento</a></li>
                                 <li class="divider"></li>
                                 <li role="presentation"><a href="#">Entidade Relacionamento para Tabelas</a></li>
                                 <li class="divider"></li>

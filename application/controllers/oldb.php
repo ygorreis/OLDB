@@ -12,4 +12,8 @@ class OlDB extends CI_Controller {
     public function notacoes_er(){
         $this->load->view('notacoes_er');
     }
+    
+    public function cenarios_er(){
+        $this->load->view('cenarios_er');
+    }
 }

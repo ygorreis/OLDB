@@ -29,7 +29,7 @@
                             <ul class="dropdown-menu">
                                 <li role="presentation"><a href="<?= site_url('oldb/notacoes_er')?>">Notações Entidade Relacionamento</a></li>
                                 <li class="divider"></li>
-                                <li role="presentation"><a href="#">Cenário para Entidade Relacionamento</a></li>
+                                <li role="presentation"><a href="<?= site_url('oldb/cenarios_er')?>">Cenário para Entidade Relacionamento</a></li>
                                 <li class="divider"></li>
                                 <li role="presentation"><a href="#">Entidade Relacionamento para Tabelas</a></li>
                                 <li class="divider"></li>
@@ -258,7 +258,7 @@
                         <li>FINALIZANDO,  DIAGRAMAS DE ENTIDADE RELACIONAMENTO USAM OUTROS SÍMBOLOS PARA MOSTRAR A CARDINALIDADE. ESTES SÍMBOLOS DIFICILMENTE SÃO CONSISTENTES, ENTRETANTO, ELES PODEM SER NÚMEROS, LETRAS OU, MAIS COMUMENTE, PÉS DE GALINHA.</li>
                     </ul>
                 </div>
-                <img id="imagem" src="">
+                <img id="imagem_n" src="">
             </div>
         </div>
     </div>
@@ -271,7 +271,7 @@
         </div>
         <!-- /container -->
  
- x
+ 
         <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="../js/bootstrap.min.js"></script>
         <script type="text/javascript" src="../js/javascript_menu.js"></script>
