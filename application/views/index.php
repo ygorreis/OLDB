@@ -35,7 +35,7 @@
                                 <li class="divider"></li>
                                 <li role="presentation"><a href="#">Entidade Relacionamento para Tabelas</a></li>
                                 <li class="divider"></li>
-                                <li role="presentation"><a href="#">Dependências</a></li>
+                                <li role="presentation"><a href="<?= site_url('oldb/dependencias_er')?>">Dependências</a></li>
                             </ul>
                         </li>
                         <li role="presentation"><a href="#">SQL</a></li>

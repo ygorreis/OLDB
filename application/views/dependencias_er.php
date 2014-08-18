@@ -48,40 +48,24 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a href="" class="empregado"><span class="glyphicon glyphicon-circle-arrow-right">
-                            </span>  Empregado</a>
+                            <a href="" class="hospital"><span class="glyphicon glyphicon-circle-arrow-right">
+                            </span>  Hospital</a>
                         </h4>
                     </div>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a href="" class="automoveis"><span class="glyphicon glyphicon-circle-arrow-right">
-                            </span>  Automoveis</a>
+                            <a href="" class="universidade"><span class="glyphicon glyphicon-circle-arrow-right">
+                            </span>  Universidade</a>
                         </h4>
                     </div>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a href="" class="medico"><span class="glyphicon glyphicon-circle-arrow-right">
-                            </span>  Medico</a>
-                        </h4>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a href="" class="revendedora"><span class="glyphicon glyphicon-circle-arrow-right">
-                            </span>  Revendedora de Carros</a>
-                        </h4>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a href="" class="prescricao"><span class="glyphicon glyphicon-circle-arrow-right">
-                            </span>  Prescrição de Remédios</a>
+                            <a href="" class="estoque"><span class="glyphicon glyphicon-circle-arrow-right">
+                            </span>  Estoque</a>
                         </h4>
                     </div>
                 </div>
@@ -89,16 +73,38 @@
         </div>
         <div class="col-sm-9 col-md-9">
             <div class="well" id="apresentacao">
-                <h1 id="tituloc">Cenários Entidade Relacionamento</h1>
+                <h1 id="titulod">Dependências</h1>
                 <div id="texto">
-                Faltam:
-                - Ordens
-                - Telefone
-                - Fornecedores
-                - Universidade
+                <ul>
+                    <li>A dependência funcional ocorre quando o valor de um atributo determina o valor de um outro atributo. Por exemplo, quando é dada uma StudentID, você pode encontrar StudentName. Portanto, existe uma dependência funcional entre StudentID e StudentName.</li>
+                    <li>Os atributos utilizados como um ponto de partida são chamados determinantes. No exemplo acima, determina StudentID StudentName</li>
+                    <li>Às vezes, mais do que um atributo é utilizado na criação de um determinante determinante compósito. </li>
+                    <li>Por definição, uma chave primária irá determinar todos os outros atributos da tabela. </li>
+                    <li>Para determinar as dependências funcionais, duas perguntas devem ser feitas: É Y um fato relacionado com X? Ou, no exemplo dado, é relacionada com a StudentName StudentID? 
+                        O X determinar Y? Ou, mais uma vez, neste exemplo, não StudentID determinar StudentName? </li>
+                    <li>Além disso, as regras de negócios são muitas vezes a melhor maneira de descobrir os determinantes. Por exemplo, seguindo as regras de negócio, você esperaria uma ProductSKU para determinar ProductPrice. </li>
+                    <li>Finalmente, dependências funcionais só existe quando os atributos envolvidos têm identificadores únicos e individuais.</li>
+                </ul>
                 </div>
-                <p id="cenario"></p>
-                <img id="imagem_c" src="">
+                <div id="questoes_d">
+                    <div id="questao">
+                    </div><br>
+                    <p>A. <a href="" id="itema"></a><br></p>
+                    <div id="feedbacka" class="">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        <strong id="fa"></strong>
+                    </div>
+                    <p>B. <a href="" id="itemb"></a><br></p>
+                    <div id="feedbackb" class="alert alert-danger fade in">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        <strong id="fb"></strong>
+                    </div>
+                    C. <a href="" id="itemc"></a><br>
+                    <div id="feedbackc" class="alert alert-danger fade in">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        <strong id="fc"></strong>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

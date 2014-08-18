@@ -245,41 +245,123 @@ $(function() {
    $('.automoveis').click(function(){
         $("#texto").hide();
         $("#tituloc").text("Automoveis");
-        $("#cenario").text("");
+        $("#cenario").text("Uma peça de automóvel (que consiste em PNUM, pname, preço) contém pelo menos uma parte. Além disso, uma parte do automóvel pode também estar contido em uma ou mais partes.");
         $("#imagem_c").show();
         $("#imagem_c").attr('src',"../img/asol.jpg");
         return false;
     });
- });
+ });    
  
  $(function() {
-   $('.maccordion').click(function(){
+   $('.medico').click(function(){
         $("#texto").hide();
-        $("#ac1").hide();
-        $("#ac2").hide();
-        $("#ac3").show();
-        $("#ac4").hide();
-        $("#ac5").hide();
-        $("#ac6").hide();
-        $("#ac7").hide();
-        $("#ac8").hide();
-        $("#ac9").hide();
+        $("#tituloc").text("Médico");
+        $("#cenario").text("Você foi contratado por um hospital regional para criar um banco de dados que irá acompanhar os procedimentos realizados para os pacientes e as informações de faturamento correspondente. Para facilitar o armazenamento desta informação, o hospital atribui a cada novo paciente um número único paciente. Muitas vezes, o mesmo paciente pode ser visto pelo hospital para procedimentos diferentes, e irá, portanto, manter o mesmo número único. O hospital precisa de um sistema de banco de dados que é capaz de controlar todos os procedimentos realizados para o paciente e pode faturar o ou individualmente para as visitas.");
+        $("#imagem_c").show();
+        $("#imagem_c").attr('src',"../img/msol.jpg");
+        return false;
+    });
+ });
+ 
+ 
+ $(function() {
+   $('.revendedora').click(function(){
+        $("#texto").hide();
+        $("#tituloc").text("Revendedora de Carros");
+        $("#cenario").text("Um negociante de carro local contratou você para projetar um sistema de banco de dados que irá acompanhar os reparos do carro feitas por seus técnicos. No projeto do sistema, um mecânico deve ser atribuído a cada carro para reparo como cada reparo é monitorado através de um relatório de trabalho. Além disso, o sistema de base de dados deve ser capaz de gerar um relatório para o cliente que contém uma descrição do trabalho que foi realizado, a data, a hora, e resultado.");
+        $("#imagem_c").show();
+        $("#imagem_c").attr('src',"../img/rcsol.jpg");
         return false;
     });
  });
  
  $(function() {
-   $('.rcaccordion').click(function(){
+   $('.prescricao').click(function(){
         $("#texto").hide();
-        $("#ac1").hide();
-        $("#ac2").hide();
-        $("#ac3").hide();
-        $("#ac4").show();
-        $("#ac5").hide();
-        $("#ac6").hide();
-        $("#ac7").hide();
-        $("#ac8").hide();
-        $("#ac9").hide();
+        $("#tituloc").text("Prescrição de Remédios");
+        $("#cenario").text("Um sistema de banco de dados precisa ser projetado que irá acompanhar prescrições médicas para os pacientes. Este sistema de banco de dados deve ser capaz de mostrar não só que as drogas um paciente foi receitado, mas também o nome do médico que prescreveu. Ao projetar esse sistema, deve-se notar que um médico pode emitir várias receitas diferentes para um determinado paciente. Da mesma forma, um paciente pode ter prescrições de médicos diferentes.");
+        $("#imagem_c").show();
+        $("#imagem_c").attr('src',"../img/psol.jpg");
+        return false;
+    });
+ });
+ 
+ /*dependencias_er*/
+ $(function() {
+     $('#questoes_d').hide();
+     return false;
+ });
+ 
+ $(function() {
+   $('.hospital').click(function(){
+        $('#questoes_d').show();
+        $("#texto").hide();
+        $("#feedbacka").hide();
+        $("#feedbackb").hide();
+        $("#feedbackc").hide();
+        $("#titulod").text("Hospital");
+        $("#questao").text("Um sistema de banco de dados é necessário para acompanhar os hospitais e os médicos contratados pelos hospitais. O banco de dados irá incluir vários hospitais e os médicos só podem trabalhar para um hospital. Tendo em conta os seguintes atributos, identificar as dependências provavelmente funcionais: hospital_id, hospital_nome, hospital_endereco, medico_id, medico_nome, medico_salario, hospital_cidade");
+        $("#itema").text("hospital_id determina hospital_nome, hospital_endereco, hospital_cidade;  | médico_id determina hospital_id, medico_nome, medico_endereco.");
+        $("#itema").click(function(){
+            $("#fa").attr('class', "alert alert-success fade in");
+            $("#fa").text("Correto");
+            $("#feedbackb").hide();
+            $("#feedbackc").hide();
+            $("#feedbacka").show();
+            return false;
+        });
+        $("#itemb").text("medico_id determina medico_nome, medico_endereco, medico_salario; | hospital_id determina hospital_nome, hospital_endereco, hospital_cidade, medico_id");
+        $("#itemb").click(function(){
+            $("#fa").attr('class', "alert alert-danger fade in");
+            $("#fb").text("Incorreto. Hospital_id não determina médico_id. Para um hospital_id não corresponde mais de um medico.");
+            $("#feedbacka").hide();
+            $("#feedbackc").hide();
+            $("#feedbackb").show();
+            return false;
+        });
+        $("#itemc").text("Medico_id determina physician_nome, medico_endereco, medico_salario, hospital_id; | hospital_cidade determina hospital_nome, hospital_endereco, medico _id");
+        $("#itemc").click(function(){
+            $("#fa").attr('class', "alert alert-danger fade in");
+            $("#fc").text("Incorreto. Hospital_id não determina médico_id. Para um hospital_id não corresponde mais de um medico.");
+            $("#feedbacka").hide();
+            $("#feedbackb").hide();
+            $("#feedbackc").show();
+            return false;
+        });
+        return false;
+    });
+ });
+ 
+ $(function() {
+   $('.universidade').click(function(){
+        $('#questoes_d').show();
+        $("#texto").hide();
+        $("#feedbacka").hide();
+        $("#feedbackb").hide();
+        $("#feedbackc").hide();
+        $("#titulod").text("Universidade");
+        $("#questao").text("Uma universidade está desenvolvendo um sistema para rastrear estacionamento para professores, funcionários e alunos. Todos no universityy paga pelo direito de estacionar e depois é atribuída uma zona na qual ele ou ela pode estacionar. Estas zonas têm cada preço único - zonas com lugares de estacionamento mais perto de edifícios do campus custar mais do que as zonas mais distantes. Além disso, as restrições de zoneamento estão no local com base em sua função na universidade. Zona A é reservado para o presidente da universidade e da faculdade Deans. Faculdade pode estacionar em qualquer zona exceto B ou C. Os funcionários podem estacionar em apenas Zons D ou E, e os alunos podem estacionar nas zonas FH. Tendo em conta os seguintes atributos identifique as dependências funcionais mais prováveis​​:  universidade_id, universidade_posicao, zona_estacionamento, espaco_estacionamento, preço_estacionamento.");
+        $("#itema").text("universidade_posicao determina universidade_id, zona_estacionamento | zona_estacionamento determina espaço_estacionamento, preco_estacionamento.");
+        $("#itema").click(function(){
+            $("#fa").attr('class', "alert alert-danger fade in");
+            $("#fa").text("Incorreto. Zona_estacionamento não determina espaco_estacionamento.");
+            $("#feedbacka").show();
+            return false;
+        });
+        $("#itemb").text("universidade_id determina espaco_estacionamento | espaco_estacionamento determina zona_estacionamento | zona_estacionamento determina preco_estacionamento.");
+        $("#itemb").click(function(){
+            $("#fa").attr('class', "alert alert-danger fade in");
+            $("#fb").text("Incorreto. Universidade_id não determina espaco_estacionamento porque para cada universidade não pode haver mais do que um espaço de estacionamento.");
+            $("#feedbackb").show();
+            return false;
+        });
+        $("#itemc").text("universidade_id determina universidade_posicao, zona_estacionamento | espaco_estacionamento determina zona_estacionamento, preco_estacionamento.");
+        $("#itemc").click(function(){
+            $("#fa").attr('class', "alert alert-sucess fade in");
+            $("#fc").text("Correto");
+            $("#feedbackc").show();
+            return false;
+        });
         return false;
     });
  });
