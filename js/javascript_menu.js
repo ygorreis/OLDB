@@ -263,7 +263,6 @@ $(function() {
     });
  });
  
- 
  $(function() {
    $('.revendedora').click(function(){
         $("#texto").hide();
@@ -296,72 +295,67 @@ $(function() {
    $('.hospital').click(function(){
         $('#questoes_d').show();
         $("#texto").hide();
-        $("#feedbacka").hide();
-        $("#feedbackb").hide();
-        $("#feedbackc").hide();
-        $("#titulod").text("Hospital");
+        $("#subtitulo").hide();
+        $("#titulod").text("Hospital possui muitos médicos.");
         $("#questao").text("Um sistema de banco de dados é necessário para acompanhar os hospitais e os médicos contratados pelos hospitais. O banco de dados irá incluir vários hospitais e os médicos só podem trabalhar para um hospital. Tendo em conta os seguintes atributos, identificar as dependências provavelmente funcionais: hospital_id, hospital_nome, hospital_endereco, medico_id, medico_nome, medico_salario, hospital_cidade");
-        $("#itema").text("hospital_id determina hospital_nome, hospital_endereco, hospital_cidade;  | médico_id determina hospital_id, medico_nome, medico_endereco.");
-        $("#itema").click(function(){
-            $("#fa").attr('class', "alert alert-success fade in");
-            $("#fa").text("Correto");
-            $("#feedbackb").hide();
-            $("#feedbackc").hide();
-            $("#feedbacka").show();
-            return false;
-        });
-        $("#itemb").text("medico_id determina medico_nome, medico_endereco, medico_salario; | hospital_id determina hospital_nome, hospital_endereco, hospital_cidade, medico_id");
-        $("#itemb").click(function(){
-            $("#fa").attr('class', "alert alert-danger fade in");
-            $("#fb").text("Incorreto. Hospital_id não determina médico_id. Para um hospital_id não corresponde mais de um medico.");
-            $("#feedbacka").hide();
-            $("#feedbackc").hide();
-            $("#feedbackb").show();
-            return false;
-        });
-        $("#itemc").text("Medico_id determina physician_nome, medico_endereco, medico_salario, hospital_id; | hospital_cidade determina hospital_nome, hospital_endereco, medico _id");
-        $("#itemc").click(function(){
-            $("#fa").attr('class', "alert alert-danger fade in");
-            $("#fc").text("Incorreto. Hospital_id não determina médico_id. Para um hospital_id não corresponde mais de um medico.");
-            $("#feedbacka").hide();
-            $("#feedbackb").hide();
-            $("#feedbackc").show();
-            return false;
-        });
+        
+        $("#itema").html("hospital_id determina hospital_nome, hospital_endereco, hospital_cidade;" +"<br>"+ "&nbsp &nbsp médico_id determina hospital_id, medico_nome, medico_endereco.");
+        $("#fbta").html('Correta!');
+        $("#fbca").html('Resposta Correta JS');
+       
+        $("#itemb").html("medico_id determina medico_nome, medico_endereco, medico_salario;" +"<br>"+ "&nbsp &nbsp hospital_id determina hospital_nome, hospital_endereco, hospital_cidade, medico_id");
+        $("#fbtb").html('Incorreta!');
+        $("#fbcb").html('Hospital_id não determina médico_id. Para um hospital_id não corresponde mais de um medico.');
+        
+        $("#itemc").html("Medico_id determina physician_nome, medico_endereco, medico_salario, hospital_id;" +"<br>"+ "&nbsp &nbsp hospital_cidade determina hospital_nome, hospital_endereco, medico _id;");
+        $("#fbtc").html('Incorreta!');
+        $("#fbcc").html('Hospital_cidade não determina médico_id. Para um hospital_cidade não corresponde mais de um medico.'); 
+        return false;
+    });
+ });
+
+$(function() {
+   $('.universidade').click(function(){
+        $('#questoes_d').show();
+        $("#texto").hide();
+        $("#subtitulo").hide();
+        $("#titulod").html("Estacionamento no campus da universidade.");
+        $("#questao").html("A universidade está desenvolvendo um sistema para rastrear estacionamento para professores, funcionários e alunos. Todo mundo na universidade paga pelo direito de estacionar e depois é atribuído uma zona na qual ele ou ela pode estacionar. Estas zonas têm cada preço único - zonas de estacionamento whith mais perto de edifícios do campus custar mais do que as zonas mais distantes. Além disso, as restrições de zoneamento estão no local com base em sua função na universidade. Zona A é reservado para o presidente da universidade e da faculdade Deans. Faculdade pode estacionar em qualquer zona exceto B ou C. Os funcionários podem estacionar em apenas Zonas D ou E, e os alunos podem estacionar nas zonas FH. <br> Dados os seguintes attibutes identificar as dependências mais prováveis ​​funcional: <br> Universidade_id, universidade_posicao, zona_estacionamento, espaco_estacionamento, preco_estacionamento");
+        
+        $("#itema").html("Universidade_posicao determina universidade_id, zona_estacionamento. <br> &nbsp &nbsp Zona_estacionamento determina espaco_estacionamento, preco_estacionamento.");
+        $("#fbta").html('Incorreta!');
+        $("#fbca").html('Zona_estacionamento não determina espaco_estacionamento.');
+       
+        $("#itemb").html("Universidade_id determina espaco_estacionamento; <br> &nbsp &nbsp Espaco_estacionamento determina zona_estacionamento; <br> &nbsp &nbsp Zona_estacionamento determina preco_estacionamento.");
+        $("#fbtb").html('Incorreta!');
+        $("#fbcb").html('Universidade_id não determina espaco_estacionamento porque, para cada universidade, não pode haver mais de um espaço de estaccionamento.');
+        
+        $("#itemc").html("Medico_id determina physician_nome, medico_endereco, medico_salario, hospital_id;" +"<br>"+ "&nbsp &nbsp hospital_cidade determina hospital_nome, hospital_endereco, medico _id;");
+        $("#fbtc").html('Correta!');
+        $("#fbcc").html('Resposta correta.'); 
         return false;
     });
  });
  
  $(function() {
-   $('.universidade').click(function(){
+   $('.estoque').click(function(){
         $('#questoes_d').show();
         $("#texto").hide();
-        $("#feedbacka").hide();
-        $("#feedbackb").hide();
-        $("#feedbackc").hide();
-        $("#titulod").text("Universidade");
-        $("#questao").text("Uma universidade está desenvolvendo um sistema para rastrear estacionamento para professores, funcionários e alunos. Todos no universityy paga pelo direito de estacionar e depois é atribuída uma zona na qual ele ou ela pode estacionar. Estas zonas têm cada preço único - zonas com lugares de estacionamento mais perto de edifícios do campus custar mais do que as zonas mais distantes. Além disso, as restrições de zoneamento estão no local com base em sua função na universidade. Zona A é reservado para o presidente da universidade e da faculdade Deans. Faculdade pode estacionar em qualquer zona exceto B ou C. Os funcionários podem estacionar em apenas Zons D ou E, e os alunos podem estacionar nas zonas FH. Tendo em conta os seguintes atributos identifique as dependências funcionais mais prováveis​​:  universidade_id, universidade_posicao, zona_estacionamento, espaco_estacionamento, preço_estacionamento.");
-        $("#itema").text("universidade_posicao determina universidade_id, zona_estacionamento | zona_estacionamento determina espaço_estacionamento, preco_estacionamento.");
-        $("#itema").click(function(){
-            $("#fa").attr('class', "alert alert-danger fade in");
-            $("#fa").text("Incorreto. Zona_estacionamento não determina espaco_estacionamento.");
-            $("#feedbacka").show();
-            return false;
-        });
-        $("#itemb").text("universidade_id determina espaco_estacionamento | espaco_estacionamento determina zona_estacionamento | zona_estacionamento determina preco_estacionamento.");
-        $("#itemb").click(function(){
-            $("#fa").attr('class', "alert alert-danger fade in");
-            $("#fb").text("Incorreto. Universidade_id não determina espaco_estacionamento porque para cada universidade não pode haver mais do que um espaço de estacionamento.");
-            $("#feedbackb").show();
-            return false;
-        });
-        $("#itemc").text("universidade_id determina universidade_posicao, zona_estacionamento | espaco_estacionamento determina zona_estacionamento, preco_estacionamento.");
-        $("#itemc").click(function(){
-            $("#fa").attr('class', "alert alert-sucess fade in");
-            $("#fc").text("Correto");
-            $("#feedbackc").show();
-            return false;
-        });
+        $("#subtitulo").hide();
+        $("#titulod").html("Estoque");
+        $("#questao").html("Imagem Pendente...");
+        
+        $("#itema").html("...");
+        $("#fbta").html('Correta!');
+        $("#fbca").html('Resposta Correta JS');
+       
+        $("#itemb").html("...");
+        $("#fbtb").html('Incorreta!');
+        $("#fbcb").html('Pendente');
+        
+        $("#itemc").html("...");
+        $("#fbtc").html('Incorreta!');
+        $("#fbcc").html('Pendente'); 
         return false;
     });
  });

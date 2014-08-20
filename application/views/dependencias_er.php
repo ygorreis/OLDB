@@ -73,8 +73,10 @@
         </div>
         <div class="col-sm-9 col-md-9">
             <div class="well" id="apresentacao">
-                <h1 id="titulod">Dependências</h1>
+                <h1 id="titulod">Dependências Funcionais<br></h1>
+                <h4 id="subtitulo"><i>Pratique determinar as dependências funcionais entre atributos nos cenários à esquerda.</i></h4>
                 <div id="texto">
+                <br>
                 <ul>
                     <li>A dependência funcional ocorre quando o valor de um atributo determina o valor de um outro atributo. Por exemplo, quando é dada uma StudentID, você pode encontrar StudentName. Portanto, existe uma dependência funcional entre StudentID e StudentName.</li>
                     <li>Os atributos utilizados como um ponto de partida são chamados determinantes. No exemplo acima, determina StudentID StudentName</li>
@@ -89,21 +91,51 @@
                 <div id="questoes_d">
                     <div id="questao">
                     </div><br>
-                    <p>A. <a href="" id="itema"></a><br></p>
-                    <div id="feedbacka" class="">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                        <strong id="fa"></strong>
+                    <p><a href="" data-toggle="modal" data-target="#feedbacka">A. </a><span id="itema"></span></p>
+                    <div class="modal fade" id="feedbacka" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h4 class="modal-title" id="fbta"></h4>
+                        </div>
+                        <div class="modal-body" id="fbca"></div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                        </div>
+                      </div>
+                     </div>
                     </div>
-                    <p>B. <a href="" id="itemb"></a><br></p>
-                    <div id="feedbackb" class="alert alert-danger fade in">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                        <strong id="fb"></strong>
+                    <p><a href="" data-toggle="modal" data-target="#feedbackb">B. </a><span id="itemb"></span></p>
+                    <div class="modal fade" id="feedbackb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h4 class="modal-title" id="fbtb"></h4>
+                        </div>
+                        <div class="modal-body" id="fbcb"></div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                        </div>
+                      </div>
+                     </div>
                     </div>
-                    C. <a href="" id="itemc"></a><br>
-                    <div id="feedbackc" class="alert alert-danger fade in">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                        <strong id="fc"></strong>
-                    </div>
+                    <p><a href="" data-toggle="modal" data-target="#feedbackb">C. </a><span id="itemc"></span></p>
+                    <div class="modal fade" id="feedbackb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h4 class="modal-title" id="fbtc"></h4>
+                        </div>
+                        <div class="modal-body" id="fbcc"></div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                        </div>
+                      </div>
+                     </div>
+                    </div>                    
                 </div>
             </div>
         </div>
