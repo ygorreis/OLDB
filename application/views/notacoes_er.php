@@ -248,14 +248,14 @@
         <div class="col-sm-9 col-md-9">
             <div class="well" id="apresentacao">
                 <div id="texto"><h1>Notações Entidade Relacionamento</h1>
-                    ALGUMAS INFORMAÇÕES IMPORTANTES:<br><br>
+                    Algumas informações importantes:<br><br>
                     <ul>
-                        <li>TODO DIAGRAMA DE ENTIDADE RELACIONAMENTO CONSISTE EM VÁRIOS COMPONENTES: ENTIDADES, ATRIBUTOS, IDENTIFICADORES E RELAÇÕES.</li>
-                        <li>É POSSÍVEL QUE ESSES COMPONENTES USEM UM DE MUITOS MÉTODOS DO DIAGRAMA DE ENTIDADE RELACIONAMENTO.</li>
-                        <li>EMBORA NÃO HAJA UM MÉTODO DE DIAGRAMAÇÃO DE ER ACEITÁVEL, MUITOS DOS SÍMBOLOS PERMANECEM CONSISTENTES.</li>
-                        <li>O PRIMEIRO DE TODOS, AS CLASSES SÃO DENOTADAS POR RETÂNGULOS.</li>
-                        <li>LINHAS SÃO TRAÇOS ENTRE AS CLASSES PARA LIGAR DUAS OU MAIS CLASSES. FREQUENTEMENTE UM TRIÂNGULO PODERÁ SER DESENHADO PARA INFORMAR COMO AS CLASSES SE RELACIONAM.</li>
-                        <li>FINALIZANDO,  DIAGRAMAS DE ENTIDADE RELACIONAMENTO USAM OUTROS SÍMBOLOS PARA MOSTRAR A CARDINALIDADE. ESTES SÍMBOLOS DIFICILMENTE SÃO CONSISTENTES, ENTRETANTO, ELES PODEM SER NÚMEROS, LETRAS OU, MAIS COMUMENTE, PÉS DE GALINHA.</li>
+                        <li>Todo diagrama de entidade relacionamento consiste em vários componentes: entidades, atributos, identificadores e relações.</li>
+                        <li>É possível que esses componentes usem um de muitos métodos do diagrama de entidade relacionamento.</li>
+                        <li>Embora não haja um método de diagramação de entidade relacionamento aceitável, muitos dos símbolos permanecem consistentes.</li>
+                        <li>O primeiro de todos, as classes são denotadas por retângulos.</li>
+                        <li>Linhas são traços entre as classes para ligar duas ou mais classes. Frequentemente um triângulo poderá ser desenhado para informar como as classes se relacionam.</li>
+                        <li>Finalizando,  diagramas de entidade relacionamento usam outros símbolos para mostrar a cardinalidade. Estes símbolos dificilmente são consistentes, entretanto, eles podem ser números, letras ou, mais comumente, pés de galinha.</li>
                     </ul>
                 </div>
                 <img id="imagem_n" src="">
