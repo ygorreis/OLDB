@@ -343,19 +343,19 @@ $(function() {
         $("#texto").hide();
         $("#subtitulo").hide();
         $("#titulod").html("Estoque");
-        $("#questao").html("Imagem Pendente...");
+        $("#questao").html('<div align="center"><img src="../img/qdep.jpg"></div>');
         
-        $("#itema").html("...");
+        $("#itema").html("codigo_est determina empresa_est, preco_est, qtd_est, div_est, pe_est, pais_est, taxa_est <br> &nbsp &nbsp pais_est determina taxa_est");
         $("#fbta").html('Correta!');
         $("#fbca").html('Resposta Correta.');
        
-        $("#itemb").html("...");
+        $("#itemb").html("cod_est determina empresa_est, preco_est, qtd_est, div_est, pe_est, pais_est <br> &nbsp &nbsp pais_est determina taxa_est");
         $("#fbtb").html('Incorreta!');
-        $("#fbcb").html('Pendente');
+        $("#fbcb").html('cod_est determina taxa_est por dependencia transitiva: se "a determina b" e "b determina c" então "a determina c", onde a = cod_est, b = pais_est e c = taxa_est.');
         
-        $("#itemc").html("...");
+        $("#itemc").html("cod_est determina empresa_est, preco_est, qtd_est, div_est, pe_est, pais_est, taxa_est <br> &nbsp &nbsp pais_est determina preco_est");
         $("#fbtc").html('Incorreta!');
-        $("#fbcc").html('Pendente'); 
+        $("#fbcc").html("País não determina funcionalmente o preço. Ao determinar a -> b, vemos que para cada valor de 'a' há apenas um valor de 'b'.");
         return false;
     });
  });
