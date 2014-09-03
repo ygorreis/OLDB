@@ -1,4 +1,4 @@
-/*notacoes_er*/
+/*notacoes_er lol*/
 
 $(function() {
    $('.max_1').click(function(){
