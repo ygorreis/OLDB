@@ -1,7 +1,8 @@
 #[OLDB](https://github.com/ygorreis/OLDB)
-<hr>
+
+## Intro
 O projeto OLDB - Open Learning Database visa ensinar os conceitos fundamentais de banco de dados com uma linguagem simples e intuitiva.
-O projeto é baseado no site #[ADBC](http://adbc.kennesaw.edu).
+O projeto é baseado no site [ADBC](http://adbc.kennesaw.edu).
 
 ## Desenvolvimento
 
