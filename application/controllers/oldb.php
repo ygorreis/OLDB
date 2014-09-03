@@ -20,4 +20,8 @@ class OlDB extends CI_Controller {
     public function dependencias_er(){
         $this->load->view('dependencias_er');
     }
+    
+    public function er_tabelas(){
+        $this->load->view('er_tabelas');
+    }
 }

@@ -31,7 +31,7 @@
                                 <li class="divider"></li>
                                 <li role="presentation"><a href="<?= site_url('oldb/cenarios_er')?>">Cenário para Entidade Relacionamento</a></li>
                                 <li class="divider"></li>
-                                <li role="presentation"><a href="#">Entidade Relacionamento para Tabelas</a></li>
+                                <li role="presentation"><a href="<?= site_url('oldb/er_tabelas')?>">Entidade Relacionamento para Tabelas</a></li>
                                 <li class="divider"></li>
                                 <li role="presentation"><a href="<?= site_url('oldb/dependencias_er')?>">Dependências</a></li>
                             </ul>
