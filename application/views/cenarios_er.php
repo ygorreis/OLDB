@@ -57,7 +57,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a href="" class="automoveis"><span class="glyphicon glyphicon-circle-arrow-right">
-                            </span>  Automoveis</a>
+                            </span>  Automóveis</a>
                         </h4>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a href="" class="medico"><span class="glyphicon glyphicon-circle-arrow-right">
-                            </span>  Medico</a>
+                            </span>  Médico</a>
                         </h4>
                     </div>
                 </div>
@@ -85,17 +85,47 @@
                         </h4>
                     </div>
                 </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a href="" class="pedido"><span class="glyphicon glyphicon-circle-arrow-right">
+                            </span>  Pedidos</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a href="" class="telefone"><span class="glyphicon glyphicon-circle-arrow-right">
+                            </span>  Telefones</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a href="" class="fornecedor"><span class="glyphicon glyphicon-circle-arrow-right">
+                            </span>  Fornecedores</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a href="" class="universidade"><span class="glyphicon glyphicon-circle-arrow-right">
+                            </span>  Universidade</a>
+                        </h4>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-sm-9 col-md-9">
             <div class="well" id="apresentacao">
                 <h1 id="tituloc">Cenários Entidade Relacionamento</h1>
                 <div id="texto">
-                Faltam:
-                - Ordens
-                - Telefone
-                - Fornecedores
-                - Universidade
+                <i>Pratique determinando o bom diagrama de entidade relacionamento para descrever o modelo de dados para um determinado cenário.</i>
+                <br><br>
+                (Falta inserir uma introdução a respeito do assunto)
                 </div>
                 <p id="cenario"></p>
                 <img id="imagem_c" src="">
