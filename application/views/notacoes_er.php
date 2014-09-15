@@ -11,7 +11,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-circle-arrow-right">
-                                        </span>  Máximo</a>
+                                        </span>  Binário Não-Identificado 1-N</a>
                                 </h4>
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse in">
@@ -19,37 +19,22 @@
                                     <table class="table">
                                         <tr>
                                             <td>
-                                                <a href="" class="max_1">Binário Não-Identificado 1-N</a>
+                                                <a href="" class="bin_notid_1_n_1">Máximo</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="max_2">Binário Identificado 1-N</a>
+                                                <a href="" class="bin_notid_1_n_2">Mínimo, Máximo</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="max_3">Binário N-N</a>
+                                                <a href="" class="bin_notid_1_n_3">Pé de Galinha</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="max_4">Binário 1-1</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="" class="max_5">Unário 1-N</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="" class="max_6">Incompleto, Sobreposto</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="" class="max_7">Completo, Disjunto</a>
+                                                <a href="" class="bin_notid_1_n_4">Classe UML</a>
                                             </td>
                                         </tr>
                                     </table>
@@ -60,7 +45,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-circle-arrow-right">
-                                        </span>  Minímo, Máximo</a>
+                                        </span>  Binário Identificado 1-N</a>
                                 </h4>
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse">
@@ -68,37 +53,22 @@
                                     <table class="table">
                                         <tr>
                                             <td>
-                                                <a href="" class="min_1">Binário Não-Identificado 1-N</a>
+                                                <a href="" class="bin_id_1_n_1">Máximo</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="min_2">Binário Identificado 1-N</a>
+                                                <a href="" class="bin_id_1_n_2">Mínimo, Máximo</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="min_3">Binário N-N</a>
+                                                <a href="" class="bin_id_1_n_3">Pé de Galinha</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="min_4">Binário 1-1</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="" class="min_5">Unário 1-N</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="" class="min_6">Incompleto, Sobreposto</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="" class="min_7">Completo, Disjunto</a>
+                                                <a href="" class="bin_id_1_n_4">Classe UML</a>
                                             </td>
                                         </tr>
                                     </table>
@@ -109,7 +79,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-circle-arrow-right">
-                                        </span>  Pé de Galinha</a>
+                                        </span>  Binário N-N</a>
                                 </h4>
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse">
@@ -117,37 +87,22 @@
                                     <table class="table">
                                         <tr>
                                             <td>
-                                                <a href="" class="pga_1">Binário Não-Identificado 1-N</a>
+                                                <a href="" class="bin_n_n_1">Máximo</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="pga_2">Binário Identificado 1-N</a>
+                                                <a href="" class="bin_n_n_2">Mínimo, Máximo</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="pga_3">Binário N-N</a>
+                                                <a href="" class="bin_n_n_3">Pé de Galinha</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="pga_4">Binário 1-1</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="" class="pga_5">Unário 1-N</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="" class="pga_6">Incompleto, Sobreposto</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="" class="pga_7">Completo, Disjunto</a>
+                                                <a href="" class="bin_n_n_4">Classe UML</a>
                                             </td>
                                         </tr>
                                     </table>
@@ -158,7 +113,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-circle-arrow-right">
-                                        </span>  Classe UML</a>
+                                        </span>  Binário 1 - 1</a>
                                 </h4>
                             </div>
                             <div id="collapseFour" class="panel-collapse collapse">
@@ -166,37 +121,124 @@
                                     <table class="table">
                                         <tr>
                                             <td>
-                                                <a href="" class="uml_1">Binário Não-Identificado 1-N</a>
+                                                <a href="" class="bin_1">Máximo</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="uml_2">Binário Identificado 1-N</a>
+                                                <a href="" class="bin_2">Mínimo, Máximo</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="uml_3">Binário N-N</a>
+                                                <a href="" class="bin_3">Pé de Galinha</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="uml_4">Binário 1-1</a>
+                                                <a href="" class="bin_4">Classe UML</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><span class="glyphicon glyphicon-circle-arrow-right">
+                                        </span>  Unário 1 - N</a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <table class="table">
+                                        <tr>
+                                            <td>
+                                                <a href="" class="una_1">Máximo</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="uml_5">Unário 1-N</a>
+                                                <a href="" class="una_2">Mínimo, Máximo</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="uml_6">Incompleto, Sobreposto</a>
+                                                <a href="" class="una_3">Pé de Galinha</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="uml_7">Completo, Disjunto</a>
+                                                <a href="" class="una_4">Classe UML</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix"><span class="glyphicon glyphicon-circle-arrow-right">
+                                        </span>  Incompleto, Sobreposto</a>
+                                </h4>
+                            </div>
+                            <div id="collapseSix" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <table class="table">
+                                        <tr>
+                                            <td>
+                                                <a href="" class="inc_sob_1">Máximo</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="" class="inc_sob_2">Mínimo, Máximo</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="" class="inc_sob_3">Pé de Galinha</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="" class="inc_sob_4">Classe UML</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven"><span class="glyphicon glyphicon-circle-arrow-right">
+                                        </span>  Completo, Disjunto</a>
+                                </h4>
+                            </div>
+                            <div id="collapseSeven" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <table class="table">
+                                        <tr>
+                                            <td>
+                                                <a href="" class="comp_dis_1">Máximo</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="" class="comp_dis_2">Mínimo, Máximo</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="" class="comp_dis_3">Pé de Galinha</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="" class="comp_dis_4">Classe UML</a>
                                             </td>
                                         </tr>
                                     </table>
