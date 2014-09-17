@@ -15,8 +15,7 @@ $(function() {
         $("#texto").hide();
         $("#subtitulo").hide();
         $("#titulod").text("Hospital possui muitos médicos");
-        $("#questao").text("Um sistema de banco de dados é necessário para acompanhar os hospitais e os médicos contratados pelos hospitais. O banco de dados irá incluir vários hospitais e os médicos só podem trabalhar para um hospital. Tendo em conta os seguintes atributos, identificar as dependências provavelmente funcionais: hospital_id, hospital_nome, hospital_endereco, medico_id, medico_nome, medico_salario, hospital_cidade");
-
+        $("#questao").html("Um sistema de banco de dados é necessário para acompanhar os hospitais e os médicos contratados pelos hospitais. O banco de dados irá incluir vários hospitais e os médicos só podem trabalhar para um hospital. Tendo em conta os seguintes atributos, identificar as dependências provavelmente funcionais: hospital_id, hospital_nome, hospital_endereco, medico_id, medico_nome, medico_salario, hospital_cidade<hr><i>Baseado no cenário acima, escolha a opção em que as dependências funcionais estão declaradas corretamente:</i>");
         $("#itema").html("hospital_id determina hospital_nome, hospital_endereco, hospital_cidade" + "<br>" + "&nbsp &nbsp médico_id determina hospital_id, medico_nome, medico_endereco");
         $("#fbta").html('Correta!');
         $("#fbca").html('Resposta Correta.');
@@ -38,7 +37,7 @@ $(function() {
         $("#texto").hide();
         $("#subtitulo").hide();
         $("#titulod").html("Estacionamento no campus da universidade");
-        $("#questao").html("A universidade está desenvolvendo um sistema para rastrear estacionamento para professores, funcionários e alunos. Todo mundo na universidade paga pelo direito de estacionar e depois é atribuído uma zona na qual ele ou ela pode estacionar. Estas zonas têm cada preço único - zonas de estacionamento whith mais perto de edifícios do campus custar mais do que as zonas mais distantes. Além disso, as restrições de zoneamento estão no local com base em sua função na universidade. Zona A é reservado para o presidente da universidade e da faculdade Deans. Faculdade pode estacionar em qualquer zona exceto B ou C. Os funcionários podem estacionar em apenas Zonas D ou E, e os alunos podem estacionar nas zonas FH. <br> Dados os seguintes attibutes identificar as dependências mais prováveis ​​funcional: <br> Universidade_id, universidade_posicao, zona_estacionamento, espaco_estacionamento, preco_estacionamento.");
+        $("#questao").html("A universidade está desenvolvendo um sistema para rastrear estacionamento para professores, funcionários e alunos. Todo mundo na universidade paga pelo direito de estacionar e depois é atribuído uma zona na qual ele ou ela pode estacionar. Estas zonas têm cada preço único - zonas de estacionamento whith mais perto de edifícios do campus custar mais do que as zonas mais distantes. Além disso, as restrições de zoneamento estão no local com base em sua função na universidade. Zona A é reservado para o presidente da universidade e da faculdade Deans. Faculdade pode estacionar em qualquer zona exceto B ou C. Os funcionários podem estacionar em apenas Zonas D ou E, e os alunos podem estacionar nas zonas FH.<hr><i>Universidade_id, universidade_posicao, zona_estacionamento, espaco_estacionamento, preco_estacionamento. Dados os seguintes atributos, identifique as dependências funcionais mais prováveis dentre os itens abaixo:</i>");
 
         $("#itema").html("Universidade_posicao determina universidade_id, zona_estacionamento <br> &nbsp &nbsp Zona_estacionamento determina espaco_estacionamento, preco_estacionamento");
         $("#fbta").html('Incorreta!');
@@ -61,7 +60,7 @@ $(function() {
         $("#texto").hide();
         $("#subtitulo").hide();
         $("#titulod").html("Estoque");
-        $("#questao").html('<div align="center"><img src="../img/qdep.jpg"></div>');
+        $("#questao").html('<div align="center"><img src="../img/qdep.jpg"></div><hr><i>Baseado na  tabela apresentada acima, escolha a opção em que as dependências funcionais estão declaradas corretamente:</i>');
 
         $("#itema").html("codigo_est determina empresa_est, preco_est, qtd_est, div_est, pe_est, pais_est, taxa_est <br> &nbsp &nbsp pais_est determina taxa_est");
         $("#fbta").html('Correta!');

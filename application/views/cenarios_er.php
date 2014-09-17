@@ -90,7 +90,70 @@
                             (Falta inserir uma introdução a respeito do assunto)
                         </div>
                         <p id="cenario"></p>
-                        <img id="imagem_c" src="">
+                        <img id="imagem_c" src="" usemap="" alt="">
+                        <map name="mapa">
+                            <area shape="rect" coords="0,0,399,249" href="" data-toggle="modal" data-target="#feedbacka" alt="m1">
+                            <area shape="rect" coords="400,0,806,248" href="" data-toggle="modal" data-target="#feedbackb" alt="m2">
+                            <area shape="rect" coords="0,251,499,399" href="" data-toggle="modal" data-target="#feedbackc" alt="m3">
+                            <area shape="rect" coords="401,251,806,499" href="" data-toggle="modal" data-target="#feedbackd" alt="m4">
+                        </map>
+                        
+                        <div class="modal fade" id="feedbacka" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                        <h4 class="modal-title" id="fbta"></h4>
+                                    </div>
+                                    <div class="modal-body" id="fbca"></div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="feedbackb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                        <h4 class="modal-title" id="fbtb"></h4>
+                                    </div>
+                                    <div class="modal-body" id="fbcb"></div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="feedbackc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                        <h4 class="modal-title" id="fbtc"></h4>
+                                    </div>
+                                    <div class="modal-body" id="fbcc"></div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="feedbackd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                        <h4 class="modal-title" id="fbtd"></h4>
+                                    </div>
+                                    <div class="modal-body" id="fbcd"></div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
