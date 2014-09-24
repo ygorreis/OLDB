@@ -92,10 +92,10 @@
                         <p id="cenario"></p>
                         <img id="imagem_c" src="" usemap="" alt="">
                         <map name="mapa">
-                            <area shape="rect" coords="0,0,399,249" href="" data-toggle="modal" data-target="#feedbacka" alt="m1">
-                            <area shape="rect" coords="400,0,806,248" href="" data-toggle="modal" data-target="#feedbackb" alt="m2">
-                            <area shape="rect" coords="0,251,499,399" href="" data-toggle="modal" data-target="#feedbackc" alt="m3">
-                            <area shape="rect" coords="401,251,806,499" href="" data-toggle="modal" data-target="#feedbackd" alt="m4">
+                            <area shape="rect" coords="0,0,399,249" data-toggle="modal" data-target="#feedbacka" alt="m1">
+                            <area shape="rect" coords="400,0,806,248" data-toggle="modal" data-target="#feedbackb" alt="m2">
+                            <area shape="rect" coords="0,251,499,399" data-toggle="modal" data-target="#feedbackc" alt="m3">
+                            <area shape="rect" coords="401,251,806,499" data-toggle="modal" data-target="#feedbackd" alt="m4">
                         </map>
                         
                         <div class="modal fade" id="feedbacka" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
